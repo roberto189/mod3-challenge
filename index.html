@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../mod3-challenge/style.css" />
+    <title>Animal quiz</title>
+  </head>
+
+  <header>
+    <p id="timer">time left: </p>
+  </header>
+  <body>
+    <section class="title-screen">
+        <h1 id="title">Animal Quiz!!</h1>
+        <p id="start">press play to start</p>
+        <button id="play">play</button>
+    </section>
+    <section class="questions hide">
+        <h1 id="qtitle"></h1>
+        <div class="q1">
+        </div>
+        <!-- <div class="q2">
+            <h1 id="ask2">question2</h1>
+            <button id="option1.2">yoyoyoyo</button>
+            <button id="option2.2">yoyoyoyo</button>
+            <button id="option3.2">yoyoyoyo</button>
+            <button id="option4.2">yoyoyoyo</button>
+        </div>
+        <div class="q3">
+            <h1 id="ask3">question3</h1>
+            <button id="option1.3">yoyoyoyo</button>
+            <button id="option2.3">yoyoyoyo</button>
+            <button id="option3.3">yoyoyoyo</button>
+            <button id="option4.3">yoyoyoyo</button>
+        </div>
+        <div class="q4">
+            <h1 id="ask4">question4</h1>
+            <button id="option1.4">yoyoyoyo</button>
+            <button id="option2.4">yoyoyoyo</button>
+            <button id="option3.4">yoyoyoyo</button>
+            <button id="option4.4">yoyoyoyo</button>
+        </div>
+        <div class="q5">
+            <h1 id="ask5">question5</h1>
+            <button id="option1.5">yoyoyoyo</button>
+            <button id="option2.5">yoyoyoyo</button>
+            <button id="option3.5">yoyoyoyo</button>
+            <button id="option4.5">yoyoyoyo</button>
+        </div> -->
+        
+    </section>
+    <section class="done">
+        <div class="done1">
+            <h2 class="showscore">Great job! Your score is:</h2>
+            <label for="initials">enter your initials</label>
+            <form action="submit">
+                <textarea name="initials" id="initials" cols="20" rows="1">
+                </textarea>
+                <button id="submit-btn">submit</button>
+            </form>
+        </div>
+        <div class="Highscores">
+            <h1>All previous Highscores</h1>
+            <p>initials: <span id="saved-initials"></span></p>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+  </html>
